@@ -62,7 +62,7 @@ Run on **macOS & Linux**:
 
 ```bash
 
-./rot13
+./rot13 TEXT
 
 ```
 
@@ -70,7 +70,7 @@ Run on **Windows**:
 
 ```cmd
 
-rot13.exe
+rot13.exe TEXT
 
 ```
 
