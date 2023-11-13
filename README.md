@@ -4,20 +4,17 @@
 *** here is the link:
 *** https://github.com/CM0use/README-TEMPLATE
 -->
+<h1 align="center">ROT13</h1>
 
-<h1 align="center">
-  <a href="https://en.wikipedia.org/wiki/File:ROT13_table_with_example.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/3/33/ROT13_table_with_example.svg" alt="ROT13 example"></a>
-  <br>ROT13<br>
-  <a href="https://shields.io/"><img src="https://img.shields.io/badge/Windows-0078d7?style=for-the-badge&logo=windows&logoColor=ffffff" alt="Windows"></a>
-  <a href="https://shields.io/"><img src="https://img.shields.io/badge/mac%20OS-313131?style=for-the-badge&logo=macos&logoColor=d7d7d7" alt="MacOS"></a>
-  <a href="https://shields.io/"><img src="https://img.shields.io/badge/Linux-ffffff?style=for-the-badge&logo=linux&logoColor=000000" alt="Linux"></a>
+<p align="center">
+  <img src="https://img.shields.io/badge/Windows-0078d7?style=for-the-badge&logo=windows&logoColor=ffffff" alt="Windows">
+  <img src="https://img.shields.io/badge/mac%20OS-313131?style=for-the-badge&logo=macos&logoColor=d7d7d7" alt="macOS">
+  <img src="https://img.shields.io/badge/Linux-ffffff?style=for-the-badge&logo=linux&logoColor=000000" alt="Linux">
   <br>
-  <a href="https://github.com/CM0use/ROT13/blob/main/LICENSE">
-    <img src="https://img.shields.io/badge/License-GPLv3-4a6484?style=for-the-badge" alt="License GPLv3">
-  </a>
-</h1>
+  <a href="https://github.com/CM0use/ROT13/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-GPLv3-4a6484?style=for-the-badge"></a>
+</p>
 
-<h4 align="center">Simple letter substitution cipher that replaces a letter with the 13th letter after it in the alphabet.</h4>
+<p align="center"><i>Simple letter substitution cipher that replaces a letter with the 13th letter after it in the alphabet.</i></p>
 
 <p align="center">
   <a href="#features">Features</a> •
@@ -30,14 +27,13 @@
 <div align="center">
 
 ![20220410_202916](https://user-images.githubusercontent.com/102839710/163682298-cc803e16-b178-4988-a22f-bf2731e021d6.gif)
-
 </div>
 
 ## Features
 * Encrypt/Decrypt any Latin alphabet text entry (aA-Zz)
 * Easy to modify.
 * Cross-Platform
-  - Windows, MacOS and Linux.
+  - Windows, macOS and Linux.
 
 ## Requirements
 * g++
@@ -48,27 +44,19 @@ To **clone** and **compile** this tool, you will need to have **git** and **g++*
 From your command line:
 
 ```bash
-
 git clone https://github.com/CM0use/ROT13.git
 cd ROT13
 g++ -O2 -std=c++2a src/main.cpp src/rot13.cpp -o rot13
-
 ```
 
-Run on **MacOS & Linux**:
-
+Run on **macOS & Linux**:
 ```bash
-
 ./rot13 Hello There
-
 ```
 
 Run on **Windows**:
-
 ```cmd
-
 rot13.exe Hello There
-
 ```
 
 ## Contributing
