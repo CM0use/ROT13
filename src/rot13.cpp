@@ -19,6 +19,7 @@
 
 # include <iostream>
 
+// Thanks to https://es.wikipedia.org/wiki/ROT13#Implementaci%C3%B3n_en_C_de_ROT13
 std::string rot13(const std::string_view&);
 
 # define ROT13 (13)
